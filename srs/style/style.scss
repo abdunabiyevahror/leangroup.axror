@@ -1,0 +1,49 @@
+@import url('../lib/bstrp/bootstrap-grid.rtl.min.css');
+@import url('../fonds/montserrat/montserrat.css');
+@import url('../lib/owl/owl.carousel.min.css');
+@import url('../lib/owl/owl.theme.default.min.css');
+@import url('https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a,
+a:hover {
+    color: inherit;
+    text-decoration: none
+}
+
+.title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #2C2D2E;
+    span{
+        color: #EF7C00;
+    }
+}
+.owl-theme .owl-dots .owl-dot span {
+    background: none;
+    border: 1px solid #EF7C00;
+}
+.owl-theme .owl-dots .owl-dot.active span,{
+    background: #EF7C00;
+}
+
+@import './header.scss';
+@import './home.scss';
+@import './about.scss';
+@import './sertificates.scss';
+@import './products.scss';
+@import './feedback.scss';
+@import './team.scss';
+@import './news.scss';
+@import './contacts.scss';
+@import './footer.scss';
+@import './LThome.scss';

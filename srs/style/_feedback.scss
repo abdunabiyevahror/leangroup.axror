@@ -1,0 +1,91 @@
+.feedback {
+    .feedback-box {
+        background: url(../img/feedback/bg.png) center/cover;
+        box-shadow: 0px 4px 32px 0px #00103d29;
+        margin-bottom: 80px;
+    }
+
+    .feedback-word {
+        width: 652px;
+        height: 144px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .title__h2 {
+        display: flex;
+        margin: 24px 20px 20px;
+    }
+
+    .feedback-p {
+        width: 400px;
+        height: 40px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        color: #2C2D2E;
+        padding-left: 20px;
+    }
+
+    .feedback-input {
+        width: 490px;
+        display: flex;
+        flex-wrap: wrap;
+
+        &__label {
+            display: flex;
+        }
+
+        &__img {
+            margin-left: 20px;
+            padding: 10px;
+            width: 40px;
+            height: 40px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 16, 61, 0.12);
+            border-radius: 4px 0px 0px 4px;
+        }
+
+        &__word {
+            padding: 10px 12px;
+            width: 173px;
+            height: 40px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 16, 61, 0.12);
+            border-radius: 0px 4px 4px 0px;
+        }
+
+        &__link {
+            padding: 10px 20px;
+            gap: 10px;
+            background: #EF7C00;
+            border-radius: 4px;
+            color: #FFFFFF;
+            margin-left: 20px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 20px;
+            text-align: center;
+            margin-bottom: 36px;
+        }
+
+        &__massage {
+            margin: 12px 20px;
+            width: 446px;
+            height: 80px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 16, 61, 0.12);
+            border-radius: 4px;
+            resize: none;
+            padding: 10px 12px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 20px;
+            color: #919399;
+        }
+    }
+}

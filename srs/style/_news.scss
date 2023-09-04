@@ -1,0 +1,74 @@
+.news {
+    .news-boxes {
+        padding-top: 85px;
+
+        &__box {
+            margin-top: 32px;
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+        }
+
+        &__p {
+            padding-top: 24px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 13px;
+            color: #919399;
+        }
+
+        &__h3 {
+            padding-top: 8px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+            color: #2C2D2E;
+            padding-bottom: 70px;
+        }
+
+        &__link {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 20px;
+            text-align: center;
+            color: #EF7C00;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 20px;
+            gap: 10px;
+            width: 137px;
+            height: 40px;
+            border: 1px solid #EF7C00;
+            border-radius: 4px;
+
+
+        }
+        .news-boxes-link{
+            display: flex;
+            justify-content: center;
+            padding-bottom: 51px;
+        }
+    }
+
+    .news-word {
+        display: flex;
+        justify-content: center;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        color: #2C2D2E;
+    }
+
+}

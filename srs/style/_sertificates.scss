@@ -1,0 +1,38 @@
+@mixin sliderBtn($bgimg) {
+    font-size: 0;
+    cursor: pointer;
+    background: url($bgimg);
+    width: 27px;
+    height: 50px;
+    position: absolute;
+    right: -60px;
+    transform: translateY(-50%);
+}
+
+.certificates {
+    padding: 48px 0;
+
+    .title {
+        margin-bottom: 30px;
+    }
+
+    .owl-theme .owl-nav {
+        margin-top: 0;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+
+        .custom-prev {
+            @include sliderBtn('../img/cerificat/left.png');
+            left: -60px;
+        }
+        
+        .custom-next {
+            @include sliderBtn('../img/cerificat/right.png');
+            right:-60px;
+        }
+        
+        
+}
+}

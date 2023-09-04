@@ -1,0 +1,136 @@
+.titleLT {
+    padding-bottom: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #2C2D2E;
+}
+
+.spanLT {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #EF7C00;
+    text-indent: 10px;
+}
+
+.home {
+    .slide-item {
+        &__linkLT {
+            width: 176px;
+        }
+    }
+
+    .slide-item_second {
+        background: url('../img/home/bg1.jpg')center/cover;
+    }
+
+}
+
+.aboutLT {
+
+    .aboutLT-boxes {
+        padding-top: 56px;
+        display: flex;
+
+
+        .aboutLT-box1 {
+            width: 60%;
+
+
+
+
+
+
+            .aboutLT-box1__p {
+                padding-bottom: 24px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 20px;
+                color: #2C2D2E;
+            }
+
+            &__text {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                color: #2C2D2E;
+                padding-bottom: 8px;
+            }
+
+
+        }
+
+        .aboutLT-box2 {
+            width: 40%;
+            padding-top: 20px;
+
+        }
+
+    }
+}
+
+.poductsLT {
+    &__title {
+        padding-top: 85px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 25px;
+
+    }
+
+    .productsLT-block {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 30px;
+        width: 100%;
+        height: 179px;
+        background: rgba(0, 16, 61, 0.06);
+        border-radius: 4px;
+        margin-bottom: 12px;
+
+        &__box1 {
+            width: 30%;
+
+        }
+
+        &__box2 {
+            width: 20%;
+
+        }
+
+        &__box3 {
+            width: 50%;
+
+        }
+
+        &__text1 {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 28px;
+            color: #EF7C00;
+
+        }
+
+        &__text2 {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: #919399;
+            padding-left: 16px;
+
+        }
+    }
+
+}

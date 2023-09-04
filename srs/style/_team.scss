@@ -1,0 +1,96 @@
+.team {
+    .team-links {
+
+
+        &__link {
+            margin: 0 auto;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 20px;
+            text-align: center;
+            color: #EF7C00;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 20px;
+            gap: 10px;
+            width: 155px;
+            height: 40px;
+            border: 1px solid #EF7C00;
+            border-radius: 4px;
+            padding: 10px 20px;
+        }
+    }
+
+
+
+    .team-boxes {
+        &__person {
+            width: 19%;
+            
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        &__box {
+            height: 340px;
+            margin-top: 32px;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 62px;
+        }
+
+        &__foto {
+            width: 100%;
+            border-radius: 50%;
+        }
+
+        &__name {
+            font-family: 'Montserrat';
+            margin-top: 12px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 20px;
+            text-align: center;
+            color: #2C2D2E;
+        }
+
+        &__who {
+            margin-bottom: 16px;
+            margin-top: 4px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 13px;
+            text-align: center;
+            color: #919399;
+        }
+
+        &__nomber {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 13px;
+            text-align: center;
+
+        }
+
+        &__Email {
+            font-family: 'Montserrat';
+            margin-top: 8px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 13px;
+            text-align: center;
+        }
+    }
+
+
+
+}
